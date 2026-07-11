@@ -19,7 +19,7 @@ GROQ_MODEL = "llama-3.3-70b-versatile"
 
 def _call_groq(prompt, max_tokens=300):
     """Low level call to the Groq API."""
-    api_key = os.environ.get("GROQ_API_KEY") or "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"
+    api_key = os.environ.get("GROQ_API_KEY") or "api-KEY"
     api_key = api_key.strip()
     
     if not api_key:
